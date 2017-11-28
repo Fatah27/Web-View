@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3979A09F1F7D35990051D8A6 /* network-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3979A09E1F7D35990051D8A6 /* network-2.png */; };
+		3979D38B1F7A3FE900E79BE6 /* pengusahaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3979D38A1F7A3FE900E79BE6 /* pengusahaViewController.swift */; };
+		3979D3EB1F7A4BE300E79BE6 /* 64e1ccbb3017f519e0e165c3be1d8f545b6e04ee_original.png in Resources */ = {isa = PBXBuildFile; fileRef = 3979D3E01F7A4BE300E79BE6 /* 64e1ccbb3017f519e0e165c3be1d8f545b6e04ee_original.png */; };
+		3979D3EC1F7A4BE300E79BE6 /* 4-2-microsoft-windows-png-pic-thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 3979D3E11F7A4BE300E79BE6 /* 4-2-microsoft-windows-png-pic-thumb.png */; };
+		3979D3ED1F7A4BE300E79BE6 /* Screen Shot 2017-09-26 at 9.05.23 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3979D3E21F7A4BE300E79BE6 /* Screen Shot 2017-09-26 at 9.05.23 AM.png */; };
+		3979D3EE1F7A4BE300E79BE6 /* Untitled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3979D3E31F7A4BE300E79BE6 /* Untitled-1.png */; };
+		3979D3EF1F7A4BE300E79BE6 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 3979D3E41F7A4BE300E79BE6 /* 0.png */; };
+		3979D3F01F7A4BE300E79BE6 /* radio(1).png in Resources */ = {isa = PBXBuildFile; fileRef = 3979D3E51F7A4BE300E79BE6 /* radio(1).png */; };
+		3979D3F11F7A4BE300E79BE6 /* web.png in Resources */ = {isa = PBXBuildFile; fileRef = 3979D3E61F7A4BE300E79BE6 /* web.png */; };
+		3979D3F21F7A4BE300E79BE6 /* cropped-logo-kpmi-2-1-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3979D3E71F7A4BE300E79BE6 /* cropped-logo-kpmi-2-1-1.png */; };
+		3979D3F31F7A4BE300E79BE6 /* muslim_manga_logo_by_airgroundforce.png in Resources */ = {isa = PBXBuildFile; fileRef = 3979D3E81F7A4BE300E79BE6 /* muslim_manga_logo_by_airgroundforce.png */; };
+		3979D3F41F7A4BE300E79BE6 /* User.png in Resources */ = {isa = PBXBuildFile; fileRef = 3979D3E91F7A4BE300E79BE6 /* User.png */; };
+		3979D3F51F7A4BE300E79BE6 /* gmail.png in Resources */ = {isa = PBXBuildFile; fileRef = 3979D3EA1F7A4BE300E79BE6 /* gmail.png */; };
+		39C3AAF01F84EB2D00605FC7 /* muslim.or.id.png in Resources */ = {isa = PBXBuildFile; fileRef = 39C3AAEF1F84EB2D00605FC7 /* muslim.or.id.png */; };
+		39C3AAF21F84EC7900605FC7 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 39C3AAF11F84EC7900605FC7 /* logo.png */; };
+		39C3AAF41F84ECF700605FC7 /* logo-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 39C3AAF31F84ECF700605FC7 /* logo-2.png */; };
+		39CC75A31F79E8A700DC21B3 /* microsoftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC75A21F79E8A700DC21B3 /* microsoftViewController.swift */; };
+		39CC75A71F79EBF900DC21B3 /* msulimangaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC75A61F79EBF900DC21B3 /* msulimangaViewController.swift */; };
+		39D963FC1F7A9AA100D0B60B /* steamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D963FB1F7A9AA000D0B60B /* steamViewController.swift */; };
+		39D963FE1F7A9B3600D0B60B /* steam-logo-icon-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 39D963FD1F7A9B3600D0B60B /* steam-logo-icon-7.png */; };
+		8AAF87391F76AA7F0040DF92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF87381F76AA7F0040DF92 /* AppDelegate.swift */; };
+		8AAF873B1F76AA7F0040DF92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF873A1F76AA7F0040DF92 /* ViewController.swift */; };
+		8AAF873E1F76AA7F0040DF92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AAF873C1F76AA7F0040DF92 /* Main.storyboard */; };
+		8AAF87401F76AA7F0040DF92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AAF873F1F76AA7F0040DF92 /* Assets.xcassets */; };
+		8AAF87431F76AA7F0040DF92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AAF87411F76AA7F0040DF92 /* LaunchScreen.storyboard */; };
+		8AAF874E1F76AA7F0040DF92 /* Streaming_TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF874D1F76AA7F0040DF92 /* Streaming_TVTests.swift */; };
+		8AAF87591F76AA7F0040DF92 /* Streaming_TVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF87581F76AA7F0040DF92 /* Streaming_TVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AAF874A1F76AA7F0040DF92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AAF872D1F76AA7F0040DF92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AAF87341F76AA7F0040DF92;
+			remoteInfo = "Streaming TV";
+		};
+		8AAF87551F76AA7F0040DF92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AAF872D1F76AA7F0040DF92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AAF87341F76AA7F0040DF92;
+			remoteInfo = "Streaming TV";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3979A09E1F7D35990051D8A6 /* network-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "network-2.png"; sourceTree = "<group>"; };
+		3979D38A1F7A3FE900E79BE6 /* pengusahaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pengusahaViewController.swift; sourceTree = "<group>"; };
+		3979D3E01F7A4BE300E79BE6 /* 64e1ccbb3017f519e0e165c3be1d8f545b6e04ee_original.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 64e1ccbb3017f519e0e165c3be1d8f545b6e04ee_original.png; path = ../64e1ccbb3017f519e0e165c3be1d8f545b6e04ee_original.png; sourceTree = "<group>"; };
+		3979D3E11F7A4BE300E79BE6 /* 4-2-microsoft-windows-png-pic-thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "4-2-microsoft-windows-png-pic-thumb.png"; path = "../4-2-microsoft-windows-png-pic-thumb.png"; sourceTree = "<group>"; };
+		3979D3E21F7A4BE300E79BE6 /* Screen Shot 2017-09-26 at 9.05.23 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-09-26 at 9.05.23 AM.png"; path = "../Screen Shot 2017-09-26 at 9.05.23 AM.png"; sourceTree = "<group>"; };
+		3979D3E31F7A4BE300E79BE6 /* Untitled-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Untitled-1.png"; path = "../Untitled-1.png"; sourceTree = "<group>"; };
+		3979D3E41F7A4BE300E79BE6 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 0.png; path = ../0.png; sourceTree = "<group>"; };
+		3979D3E51F7A4BE300E79BE6 /* radio(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "radio(1).png"; path = "../radio(1).png"; sourceTree = "<group>"; };
+		3979D3E61F7A4BE300E79BE6 /* web.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = web.png; path = ../web.png; sourceTree = "<group>"; };
+		3979D3E71F7A4BE300E79BE6 /* cropped-logo-kpmi-2-1-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cropped-logo-kpmi-2-1-1.png"; path = "../cropped-logo-kpmi-2-1-1.png"; sourceTree = "<group>"; };
+		3979D3E81F7A4BE300E79BE6 /* muslim_manga_logo_by_airgroundforce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = muslim_manga_logo_by_airgroundforce.png; path = ../muslim_manga_logo_by_airgroundforce.png; sourceTree = "<group>"; };
+		3979D3E91F7A4BE300E79BE6 /* User.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = User.png; path = ../User.png; sourceTree = "<group>"; };
+		3979D3EA1F7A4BE300E79BE6 /* gmail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gmail.png; path = ../gmail.png; sourceTree = "<group>"; };
+		39C3AAEF1F84EB2D00605FC7 /* muslim.or.id.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = muslim.or.id.png; sourceTree = "<group>"; };
+		39C3AAF11F84EC7900605FC7 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		39C3AAF31F84ECF700605FC7 /* logo-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-2.png"; sourceTree = "<group>"; };
+		39CC75A21F79E8A700DC21B3 /* microsoftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = microsoftViewController.swift; sourceTree = "<group>"; };
+		39CC75A61F79EBF900DC21B3 /* msulimangaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = msulimangaViewController.swift; sourceTree = "<group>"; };
+		39D963FB1F7A9AA000D0B60B /* steamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = steamViewController.swift; sourceTree = "<group>"; };
+		39D963FD1F7A9B3600D0B60B /* steam-logo-icon-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steam-logo-icon-7.png"; sourceTree = "<group>"; };
+		8AAF87351F76AA7F0040DF92 /* Streaming TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Streaming TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AAF87381F76AA7F0040DF92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8AAF873A1F76AA7F0040DF92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8AAF873D1F76AA7F0040DF92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AAF873F1F76AA7F0040DF92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AAF87421F76AA7F0040DF92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8AAF87441F76AA7F0040DF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AAF87491F76AA7F0040DF92 /* Streaming TVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Streaming TVTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AAF874D1F76AA7F0040DF92 /* Streaming_TVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Streaming_TVTests.swift; sourceTree = "<group>"; };
+		8AAF874F1F76AA7F0040DF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AAF87541F76AA7F0040DF92 /* Streaming TVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Streaming TVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AAF87581F76AA7F0040DF92 /* Streaming_TVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Streaming_TVUITests.swift; sourceTree = "<group>"; };
+		8AAF875A1F76AA7F0040DF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AAF87321F76AA7F0040DF92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AAF87461F76AA7F0040DF92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AAF87511F76AA7F0040DF92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AAF872C1F76AA7F0040DF92 = {
+			isa = PBXGroup;
+			children = (
+				8AAF87371F76AA7F0040DF92 /* Streaming TV */,
+				8AAF874C1F76AA7F0040DF92 /* Streaming TVTests */,
+				8AAF87571F76AA7F0040DF92 /* Streaming TVUITests */,
+				8AAF87361F76AA7F0040DF92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AAF87361F76AA7F0040DF92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AAF87351F76AA7F0040DF92 /* Streaming TV.app */,
+				8AAF87491F76AA7F0040DF92 /* Streaming TVTests.xctest */,
+				8AAF87541F76AA7F0040DF92 /* Streaming TVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AAF87371F76AA7F0040DF92 /* Streaming TV */ = {
+			isa = PBXGroup;
+			children = (
+				3979D3E01F7A4BE300E79BE6 /* 64e1ccbb3017f519e0e165c3be1d8f545b6e04ee_original.png */,
+				3979D3E11F7A4BE300E79BE6 /* 4-2-microsoft-windows-png-pic-thumb.png */,
+				3979D3E21F7A4BE300E79BE6 /* Screen Shot 2017-09-26 at 9.05.23 AM.png */,
+				3979D3E31F7A4BE300E79BE6 /* Untitled-1.png */,
+				3979D3E41F7A4BE300E79BE6 /* 0.png */,
+				3979D3E51F7A4BE300E79BE6 /* radio(1).png */,
+				3979D3E61F7A4BE300E79BE6 /* web.png */,
+				39C3AAEF1F84EB2D00605FC7 /* muslim.or.id.png */,
+				3979D3E71F7A4BE300E79BE6 /* cropped-logo-kpmi-2-1-1.png */,
+				3979D3E81F7A4BE300E79BE6 /* muslim_manga_logo_by_airgroundforce.png */,
+				3979D3E91F7A4BE300E79BE6 /* User.png */,
+				3979D3EA1F7A4BE300E79BE6 /* gmail.png */,
+				39C3AAF11F84EC7900605FC7 /* logo.png */,
+				39D963FD1F7A9B3600D0B60B /* steam-logo-icon-7.png */,
+				39C3AAF31F84ECF700605FC7 /* logo-2.png */,
+				8AAF87381F76AA7F0040DF92 /* AppDelegate.swift */,
+				3979A09E1F7D35990051D8A6 /* network-2.png */,
+				8AAF873A1F76AA7F0040DF92 /* ViewController.swift */,
+				8AAF873C1F76AA7F0040DF92 /* Main.storyboard */,
+				8AAF873F1F76AA7F0040DF92 /* Assets.xcassets */,
+				8AAF87411F76AA7F0040DF92 /* LaunchScreen.storyboard */,
+				8AAF87441F76AA7F0040DF92 /* Info.plist */,
+				39CC75A21F79E8A700DC21B3 /* microsoftViewController.swift */,
+				39CC75A61F79EBF900DC21B3 /* msulimangaViewController.swift */,
+				3979D38A1F7A3FE900E79BE6 /* pengusahaViewController.swift */,
+				39D963FB1F7A9AA000D0B60B /* steamViewController.swift */,
+			);
+			path = "Streaming TV";
+			sourceTree = "<group>";
+		};
+		8AAF874C1F76AA7F0040DF92 /* Streaming TVTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AAF874D1F76AA7F0040DF92 /* Streaming_TVTests.swift */,
+				8AAF874F1F76AA7F0040DF92 /* Info.plist */,
+			);
+			path = "Streaming TVTests";
+			sourceTree = "<group>";
+		};
+		8AAF87571F76AA7F0040DF92 /* Streaming TVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8AAF87581F76AA7F0040DF92 /* Streaming_TVUITests.swift */,
+				8AAF875A1F76AA7F0040DF92 /* Info.plist */,
+			);
+			path = "Streaming TVUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AAF87341F76AA7F0040DF92 /* Streaming TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AAF875D1F76AA7F0040DF92 /* Build configuration list for PBXNativeTarget "Streaming TV" */;
+			buildPhases = (
+				8AAF87311F76AA7F0040DF92 /* Sources */,
+				8AAF87321F76AA7F0040DF92 /* Frameworks */,
+				8AAF87331F76AA7F0040DF92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Streaming TV";
+			productName = "Streaming TV";
+			productReference = 8AAF87351F76AA7F0040DF92 /* Streaming TV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AAF87481F76AA7F0040DF92 /* Streaming TVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AAF87601F76AA7F0040DF92 /* Build configuration list for PBXNativeTarget "Streaming TVTests" */;
+			buildPhases = (
+				8AAF87451F76AA7F0040DF92 /* Sources */,
+				8AAF87461F76AA7F0040DF92 /* Frameworks */,
+				8AAF87471F76AA7F0040DF92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AAF874B1F76AA7F0040DF92 /* PBXTargetDependency */,
+			);
+			name = "Streaming TVTests";
+			productName = "Streaming TVTests";
+			productReference = 8AAF87491F76AA7F0040DF92 /* Streaming TVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8AAF87531F76AA7F0040DF92 /* Streaming TVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AAF87631F76AA7F0040DF92 /* Build configuration list for PBXNativeTarget "Streaming TVUITests" */;
+			buildPhases = (
+				8AAF87501F76AA7F0040DF92 /* Sources */,
+				8AAF87511F76AA7F0040DF92 /* Frameworks */,
+				8AAF87521F76AA7F0040DF92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AAF87561F76AA7F0040DF92 /* PBXTargetDependency */,
+			);
+			name = "Streaming TVUITests";
+			productName = "Streaming TVUITests";
+			productReference = 8AAF87541F76AA7F0040DF92 /* Streaming TVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AAF872D1F76AA7F0040DF92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Haidar Rais";
+				TargetAttributes = {
+					8AAF87341F76AA7F0040DF92 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					8AAF87481F76AA7F0040DF92 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8AAF87341F76AA7F0040DF92;
+					};
+					8AAF87531F76AA7F0040DF92 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8AAF87341F76AA7F0040DF92;
+					};
+				};
+			};
+			buildConfigurationList = 8AAF87301F76AA7F0040DF92 /* Build configuration list for PBXProject "Streaming TV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AAF872C1F76AA7F0040DF92;
+			productRefGroup = 8AAF87361F76AA7F0040DF92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AAF87341F76AA7F0040DF92 /* Streaming TV */,
+				8AAF87481F76AA7F0040DF92 /* Streaming TVTests */,
+				8AAF87531F76AA7F0040DF92 /* Streaming TVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AAF87331F76AA7F0040DF92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3979D3F11F7A4BE300E79BE6 /* web.png in Resources */,
+				3979D3F21F7A4BE300E79BE6 /* cropped-logo-kpmi-2-1-1.png in Resources */,
+				39C3AAF21F84EC7900605FC7 /* logo.png in Resources */,
+				3979D3EF1F7A4BE300E79BE6 /* 0.png in Resources */,
+				39C3AAF01F84EB2D00605FC7 /* muslim.or.id.png in Resources */,
+				3979D3ED1F7A4BE300E79BE6 /* Screen Shot 2017-09-26 at 9.05.23 AM.png in Resources */,
+				39D963FE1F7A9B3600D0B60B /* steam-logo-icon-7.png in Resources */,
+				8AAF87431F76AA7F0040DF92 /* LaunchScreen.storyboard in Resources */,
+				3979D3F41F7A4BE300E79BE6 /* User.png in Resources */,
+				3979D3EE1F7A4BE300E79BE6 /* Untitled-1.png in Resources */,
+				3979D3EB1F7A4BE300E79BE6 /* 64e1ccbb3017f519e0e165c3be1d8f545b6e04ee_original.png in Resources */,
+				3979A09F1F7D35990051D8A6 /* network-2.png in Resources */,
+				3979D3F01F7A4BE300E79BE6 /* radio(1).png in Resources */,
+				39C3AAF41F84ECF700605FC7 /* logo-2.png in Resources */,
+				8AAF87401F76AA7F0040DF92 /* Assets.xcassets in Resources */,
+				8AAF873E1F76AA7F0040DF92 /* Main.storyboard in Resources */,
+				3979D3EC1F7A4BE300E79BE6 /* 4-2-microsoft-windows-png-pic-thumb.png in Resources */,
+				3979D3F51F7A4BE300E79BE6 /* gmail.png in Resources */,
+				3979D3F31F7A4BE300E79BE6 /* muslim_manga_logo_by_airgroundforce.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AAF87471F76AA7F0040DF92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AAF87521F76AA7F0040DF92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AAF87311F76AA7F0040DF92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AAF873B1F76AA7F0040DF92 /* ViewController.swift in Sources */,
+				39D963FC1F7A9AA100D0B60B /* steamViewController.swift in Sources */,
+				3979D38B1F7A3FE900E79BE6 /* pengusahaViewController.swift in Sources */,
+				8AAF87391F76AA7F0040DF92 /* AppDelegate.swift in Sources */,
+				39CC75A71F79EBF900DC21B3 /* msulimangaViewController.swift in Sources */,
+				39CC75A31F79E8A700DC21B3 /* microsoftViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AAF87451F76AA7F0040DF92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AAF874E1F76AA7F0040DF92 /* Streaming_TVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AAF87501F76AA7F0040DF92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AAF87591F76AA7F0040DF92 /* Streaming_TVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AAF874B1F76AA7F0040DF92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AAF87341F76AA7F0040DF92 /* Streaming TV */;
+			targetProxy = 8AAF874A1F76AA7F0040DF92 /* PBXContainerItemProxy */;
+		};
+		8AAF87561F76AA7F0040DF92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AAF87341F76AA7F0040DF92 /* Streaming TV */;
+			targetProxy = 8AAF87551F76AA7F0040DF92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AAF873C1F76AA7F0040DF92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AAF873D1F76AA7F0040DF92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8AAF87411F76AA7F0040DF92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AAF87421F76AA7F0040DF92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AAF875B1F76AA7F0040DF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AAF875C1F76AA7F0040DF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AAF875E1F76AA7F0040DF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Streaming TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unique-Dev.Streaming-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8AAF875F1F76AA7F0040DF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Streaming TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unique-Dev.Streaming-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8AAF87611F76AA7F0040DF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Streaming TVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unique-Dev.Streaming-TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Streaming TV.app/Streaming TV";
+			};
+			name = Debug;
+		};
+		8AAF87621F76AA7F0040DF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Streaming TVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unique-Dev.Streaming-TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Streaming TV.app/Streaming TV";
+			};
+			name = Release;
+		};
+		8AAF87641F76AA7F0040DF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Streaming TVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unique-Dev.Streaming-TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Streaming TV";
+			};
+			name = Debug;
+		};
+		8AAF87651F76AA7F0040DF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Streaming TVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unique-Dev.Streaming-TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Streaming TV";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AAF87301F76AA7F0040DF92 /* Build configuration list for PBXProject "Streaming TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AAF875B1F76AA7F0040DF92 /* Debug */,
+				8AAF875C1F76AA7F0040DF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AAF875D1F76AA7F0040DF92 /* Build configuration list for PBXNativeTarget "Streaming TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AAF875E1F76AA7F0040DF92 /* Debug */,
+				8AAF875F1F76AA7F0040DF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AAF87601F76AA7F0040DF92 /* Build configuration list for PBXNativeTarget "Streaming TVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AAF87611F76AA7F0040DF92 /* Debug */,
+				8AAF87621F76AA7F0040DF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AAF87631F76AA7F0040DF92 /* Build configuration list for PBXNativeTarget "Streaming TVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AAF87641F76AA7F0040DF92 /* Debug */,
+				8AAF87651F76AA7F0040DF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AAF872D1F76AA7F0040DF92 /* Project object */;
+}

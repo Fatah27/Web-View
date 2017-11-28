@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="WfM-45-CTG">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--WEB-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Streaming_TV" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dFs-bs-SAc">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="623" id="7nX-dW-bqy"/>
+                                    <constraint firstAttribute="width" secondItem="dFs-bs-SAc" secondAttribute="height" multiplier="375:623" id="bSA-Sx-A2S"/>
+                                    <constraint firstAttribute="width" constant="375" id="iwj-GX-DSU"/>
+                                </constraints>
+                            </webView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qrn-pJ-77i">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="qrn-pJ-77i" secondAttribute="height" multiplier="375:44" id="jO7-tR-wLz"/>
+                                    <constraint firstAttribute="height" constant="44" id="jxL-K1-SCM"/>
+                                    <constraint firstAttribute="width" constant="375" id="oTB-SN-cWS"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="era muslim" id="AIa-Hp-iBx">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="reply" id="ZLB-Aq-3RI">
+                                            <connections>
+                                                <segue destination="WfM-45-CTG" kind="modal" id="yDu-N0-zqz"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="dFs-bs-SAc" secondAttribute="trailing" id="61K-QS-fvZ"/>
+                            <constraint firstAttribute="trailing" secondItem="qrn-pJ-77i" secondAttribute="trailing" id="8xC-4E-GyS"/>
+                            <constraint firstItem="dFs-bs-SAc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="R1Z-Wd-SKd"/>
+                            <constraint firstItem="qrn-pJ-77i" firstAttribute="top" secondItem="dFs-bs-SAc" secondAttribute="bottom" id="T5R-z0-FWT"/>
+                            <constraint firstItem="qrn-pJ-77i" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="TdA-2B-KmU"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="qrn-pJ-77i" secondAttribute="bottom" id="eiI-Ca-WnL"/>
+                            <constraint firstItem="qrn-pJ-77i" firstAttribute="top" secondItem="dFs-bs-SAc" secondAttribute="bottom" id="n30-io-h1J"/>
+                            <constraint firstItem="dFs-bs-SAc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="sgK-gG-0Hw"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="WEB" image="web.png" id="fm6-UG-ube"/>
+                    <connections>
+                        <outlet property="webViewApps" destination="dFs-bs-SAc" id="FFf-CA-WwN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2458" y="502"/>
+        </scene>
+        <!--Microsoft View Controller-->
+        <scene sceneID="D7v-5e-NEe">
+            <objects>
+                <viewController id="h3M-S7-yyF" customClass="microsoftViewController" customModule="Streaming_TV" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oDn-de-Csy"/>
+                        <viewControllerLayoutGuide type="bottom" id="D9A-Zg-CrK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VkZ-1A-UMH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FIn-Us-zyB">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="FIn-Us-zyB" secondAttribute="height" multiplier="375:623" id="Cup-Hy-l9O"/>
+                                    <constraint firstAttribute="width" constant="375" id="RRp-7b-0rN"/>
+                                    <constraint firstAttribute="height" constant="623" id="wJR-8U-Q0X"/>
+                                </constraints>
+                            </webView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8EZ-Ag-4Gz">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="8RV-VQ-psQ"/>
+                                    <constraint firstAttribute="width" secondItem="8EZ-Ag-4Gz" secondAttribute="height" multiplier="375:44" id="EKg-st-H22"/>
+                                    <constraint firstAttribute="height" constant="44" id="geA-gr-sTz"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Hidyatullah" id="QBV-4N-S7Q">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="reply" id="RWN-Sz-RiF">
+                                            <connections>
+                                                <segue destination="WfM-45-CTG" kind="modal" id="ZyI-5o-aRr"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FIn-Us-zyB" firstAttribute="leading" secondItem="VkZ-1A-UMH" secondAttribute="leading" id="C50-82-bQH"/>
+                            <constraint firstAttribute="trailing" secondItem="FIn-Us-zyB" secondAttribute="trailing" id="OJU-xW-QX3"/>
+                            <constraint firstItem="D9A-Zg-CrK" firstAttribute="top" secondItem="8EZ-Ag-4Gz" secondAttribute="bottom" id="R5v-zL-Zpe"/>
+                            <constraint firstItem="8EZ-Ag-4Gz" firstAttribute="leading" secondItem="VkZ-1A-UMH" secondAttribute="leading" id="SHo-v4-CeS"/>
+                            <constraint firstItem="FIn-Us-zyB" firstAttribute="top" secondItem="VkZ-1A-UMH" secondAttribute="top" id="dni-Uz-pSm"/>
+                            <constraint firstAttribute="trailing" secondItem="8EZ-Ag-4Gz" secondAttribute="trailing" id="e5J-IZ-U7K"/>
+                            <constraint firstItem="8EZ-Ag-4Gz" firstAttribute="top" secondItem="FIn-Us-zyB" secondAttribute="bottom" id="sUd-nB-MJK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="FIn-Us-zyB" id="waq-cM-veR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jw9-nk-Yax" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-383" y="-262"/>
+        </scene>
+        <!--Know The Developer-->
+        <scene sceneID="9gW-dU-o5z">
+            <objects>
+                <viewController id="0BZ-lC-WA2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gBJ-At-eTg"/>
+                        <viewControllerLayoutGuide type="bottom" id="haZ-X6-qaQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Fd1-xT-VvE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="azB-Nl-rXO">
+                                <rect key="frame" x="104" y="206" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" red="0.97857314350000002" green="0.066470585760000006" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Abdul Fatah Al Khair" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lqf-Fy-rAv">
+                                <rect key="frame" x="104" y="151" width="164" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="164" id="CXE-YS-vY3"/>
+                                    <constraint firstAttribute="width" secondItem="lqf-Fy-rAv" secondAttribute="height" multiplier="164:23" id="E3Y-Th-yaO"/>
+                                    <constraint firstAttribute="height" constant="23" id="HdH-76-tuA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" red="0.97857314350000002" green="0.066470585760000006" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gmail.png" translatesAutoresizingMaskIntoConstraints="NO" id="mgq-ED-qUl">
+                                <rect key="frame" x="31" y="196" width="47" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="47" id="2bk-Vr-6Dt"/>
+                                    <constraint firstAttribute="height" constant="47" id="ibW-Aq-9dg"/>
+                                    <constraint firstAttribute="width" secondItem="mgq-ED-qUl" secondAttribute="height" multiplier="1:1" id="q2Z-QC-5Et"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Untitled-1.png" translatesAutoresizingMaskIntoConstraints="NO" id="PhT-0l-JdJ">
+                                <rect key="frame" x="27" y="134" width="51" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="51" id="On1-Cb-M6K"/>
+                                    <constraint firstAttribute="height" constant="54" id="Ovx-zW-TPK"/>
+                                    <constraint firstAttribute="width" secondItem="PhT-0l-JdJ" secondAttribute="height" multiplier="17:18" id="UkU-TM-QSR"/>
+                                </constraints>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cqL-Wx-r9r">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="JpP-Is-gQa"/>
+                                    <constraint firstAttribute="width" secondItem="cqL-Wx-r9r" secondAttribute="height" multiplier="375:44" id="PfG-Sc-TA3"/>
+                                    <constraint firstAttribute="width" constant="375" id="f5b-QA-UlQ"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="About Developer" id="nUI-Ew-Qlf">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="reply" id="vou-Ys-Txi">
+                                            <connections>
+                                                <segue destination="WfM-45-CTG" kind="modal" id="cdZ-dU-eeR"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Fatah.alkhair@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zZu-5Z-XFk">
+                                <rect key="frame" x="104" y="218" width="196" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="196" id="95l-T3-Wxd"/>
+                                    <constraint firstAttribute="width" secondItem="zZu-5Z-XFk" secondAttribute="height" multiplier="196:23" id="avQ-et-1uE"/>
+                                    <constraint firstAttribute="height" constant="23" id="bBY-dW-b9B"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" red="0.97857314350000002" green="0.066470585760000006" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Sent me message to this Email for make the application better" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jH0-ev-2RV">
+                                <rect key="frame" x="16" y="334" width="343" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="haZ-X6-qaQ" firstAttribute="top" secondItem="cqL-Wx-r9r" secondAttribute="bottom" id="18x-47-7eq"/>
+                            <constraint firstAttribute="trailing" secondItem="cqL-Wx-r9r" secondAttribute="trailing" id="1fj-VK-oId"/>
+                            <constraint firstItem="PhT-0l-JdJ" firstAttribute="top" secondItem="gBJ-At-eTg" secondAttribute="bottom" constant="114" id="4n5-Us-5ae"/>
+                            <constraint firstItem="lqf-Fy-rAv" firstAttribute="top" secondItem="gBJ-At-eTg" secondAttribute="bottom" constant="131" id="8P2-dj-6nb"/>
+                            <constraint firstItem="zZu-5Z-XFk" firstAttribute="top" secondItem="lqf-Fy-rAv" secondAttribute="bottom" constant="22" id="DZ5-1B-F3y"/>
+                            <constraint firstItem="zZu-5Z-XFk" firstAttribute="top" secondItem="lqf-Fy-rAv" secondAttribute="bottom" constant="32" id="N8t-nf-tJQ"/>
+                            <constraint firstItem="mgq-ED-qUl" firstAttribute="top" secondItem="PhT-0l-JdJ" secondAttribute="bottom" constant="8" id="N93-bt-aol"/>
+                            <constraint firstItem="zZu-5Z-XFk" firstAttribute="leading" secondItem="mgq-ED-qUl" secondAttribute="trailing" constant="8" id="QsC-9u-2hz"/>
+                            <constraint firstItem="lqf-Fy-rAv" firstAttribute="leading" secondItem="PhT-0l-JdJ" secondAttribute="trailing" constant="26" id="Spn-HT-sFv"/>
+                            <constraint firstItem="cqL-Wx-r9r" firstAttribute="leading" secondItem="Fd1-xT-VvE" secondAttribute="leading" id="Ss1-t3-Jo7"/>
+                            <constraint firstItem="mgq-ED-qUl" firstAttribute="leading" secondItem="Fd1-xT-VvE" secondAttribute="leadingMargin" constant="15" id="TiA-hj-dcy"/>
+                            <constraint firstItem="lqf-Fy-rAv" firstAttribute="leading" secondItem="PhT-0l-JdJ" secondAttribute="trailing" constant="26" id="dqs-gb-ROj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zZu-5Z-XFk" secondAttribute="trailing" constant="59" id="jfA-Ho-vg3"/>
+                            <constraint firstItem="zZu-5Z-XFk" firstAttribute="leading" secondItem="mgq-ED-qUl" secondAttribute="trailing" constant="26" id="nG7-SH-SbG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lqf-Fy-rAv" secondAttribute="trailing" constant="91" id="oYb-Yb-OpH"/>
+                            <constraint firstItem="PhT-0l-JdJ" firstAttribute="leading" secondItem="Fd1-xT-VvE" secondAttribute="leadingMargin" constant="11" id="pHa-Ye-Cll"/>
+                            <constraint firstItem="mgq-ED-qUl" firstAttribute="top" secondItem="PhT-0l-JdJ" secondAttribute="bottom" constant="8" id="pZP-0V-3VV"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Know The Developer" image="User.png" id="qn7-zg-wXn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qqz-X0-tRs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1391" y="-1164"/>
+        </scene>
+        <!--Pengusaha View Controller-->
+        <scene sceneID="poB-Qr-TT9">
+            <objects>
+                <viewController id="vkl-mR-aHj" customClass="pengusahaViewController" customModule="Streaming_TV" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1vx-l9-qc4"/>
+                        <viewControllerLayoutGuide type="bottom" id="HKf-F2-89W"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oV5-Ov-bEm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Be1-fx-dUo">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="623" id="CIy-Ry-r4S"/>
+                                    <constraint firstAttribute="width" constant="375" id="ctA-yS-Z8q"/>
+                                    <constraint firstAttribute="width" secondItem="Be1-fx-dUo" secondAttribute="height" multiplier="375:623" id="x4L-58-Vzd"/>
+                                </constraints>
+                            </webView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EYc-F3-Kel">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Pengusha Muslim" id="iIZ-XO-5fW">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="reply" id="hiQ-UA-PRM">
+                                            <connections>
+                                                <segue destination="WfM-45-CTG" kind="modal" id="sAc-08-okv"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Be1-fx-dUo" firstAttribute="width" secondItem="Be1-fx-dUo" secondAttribute="height" multiplier="375:623" id="zQI-3f-WhV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webview" destination="Be1-fx-dUo" id="cGs-BN-fSs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Khn-SH-zP6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1391" y="501"/>
+        </scene>
+        <!--Msulimanga View Controller-->
+        <scene sceneID="zx4-JY-bRU">
+            <objects>
+                <viewController id="MsO-Rk-Bwb" customClass="msulimangaViewController" customModule="Streaming_TV" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XdQ-LD-6Rq"/>
+                        <viewControllerLayoutGuide type="bottom" id="sct-k2-qZn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MtT-8f-whc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="quE-ca-Nwz">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="2EF-CU-0I7"/>
+                                    <constraint firstAttribute="width" secondItem="quE-ca-Nwz" secondAttribute="height" multiplier="375:623" id="aCJ-ax-lKN"/>
+                                    <constraint firstAttribute="height" constant="623" id="dow-s0-nNK"/>
+                                </constraints>
+                            </webView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N4d-aC-xwx">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="N4d-aC-xwx" secondAttribute="height" multiplier="375:44" id="Hsq-gp-LdF"/>
+                                    <constraint firstAttribute="width" constant="375" id="fjW-oi-iC5"/>
+                                    <constraint firstAttribute="height" constant="44" id="kTP-3C-pAB"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Muslim Manga" id="qN9-WG-Alb">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="reply" id="Rvq-1A-pOi">
+                                            <connections>
+                                                <segue destination="WfM-45-CTG" kind="modal" id="uD9-Lj-6Cu"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="N4d-aC-xwx" firstAttribute="top" secondItem="quE-ca-Nwz" secondAttribute="bottom" id="3ma-Uv-xa4"/>
+                            <constraint firstItem="sct-k2-qZn" firstAttribute="top" secondItem="N4d-aC-xwx" secondAttribute="bottom" id="CFD-zA-hvE"/>
+                            <constraint firstAttribute="trailing" secondItem="quE-ca-Nwz" secondAttribute="trailing" id="KdS-ly-wNc"/>
+                            <constraint firstItem="N4d-aC-xwx" firstAttribute="leading" secondItem="MtT-8f-whc" secondAttribute="leading" id="RIP-b5-HHT"/>
+                            <constraint firstItem="quE-ca-Nwz" firstAttribute="leading" secondItem="MtT-8f-whc" secondAttribute="leading" id="Ulh-96-nnz"/>
+                            <constraint firstAttribute="trailing" secondItem="N4d-aC-xwx" secondAttribute="trailing" id="V1w-td-NZ2"/>
+                            <constraint firstItem="quE-ca-Nwz" firstAttribute="top" secondItem="MtT-8f-whc" secondAttribute="top" id="XnD-Qh-rPW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="quE-ca-Nwz" id="asp-NL-YVy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hzc-IK-be7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-383" y="501"/>
+        </scene>
+        <!--Steam View Controller-->
+        <scene sceneID="UFF-VV-Q9g">
+            <objects>
+                <viewController id="YY5-Ss-Fam" customClass="steamViewController" customModule="Streaming_TV" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FRF-6I-Iae"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZEh-Wa-6Op"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dJi-ce-jbj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3CI-P4-IlA">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="DQg-gD-faS"/>
+                                    <constraint firstAttribute="height" constant="623" id="Ncz-62-wl9"/>
+                                    <constraint firstAttribute="width" secondItem="3CI-P4-IlA" secondAttribute="height" multiplier="375:623" id="whL-ey-tBn"/>
+                                </constraints>
+                            </webView>
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zsc-BK-36l">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="4Iz-nw-KqM"/>
+                                    <constraint firstAttribute="width" secondItem="zsc-BK-36l" secondAttribute="height" multiplier="375:44" id="4tb-sf-8PO"/>
+                                    <constraint firstAttribute="height" constant="44" id="uSO-jV-mN1"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Musilim.or.id" id="i9X-pW-IeA">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="reply" id="dh3-eq-5lW">
+                                            <connections>
+                                                <segue destination="WfM-45-CTG" kind="modal" id="Gag-3q-uV1"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zsc-BK-36l" firstAttribute="width" secondItem="zsc-BK-36l" secondAttribute="height" multiplier="375:44" id="NB4-Dt-HmP"/>
+                            <constraint firstItem="3CI-P4-IlA" firstAttribute="width" secondItem="3CI-P4-IlA" secondAttribute="height" multiplier="375:623" id="bgd-aB-4eh"/>
+                            <constraint firstItem="zsc-BK-36l" firstAttribute="top" secondItem="3CI-P4-IlA" secondAttribute="bottom" id="rma-3H-j1T"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="3CI-P4-IlA" id="zIl-D7-AaH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LO9-Pq-NwF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="463" y="501"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2Xa-aT-P8K">
+            <objects>
+                <viewController id="WfM-45-CTG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L73-yk-bdS"/>
+                        <viewControllerLayoutGuide type="bottom" id="vc7-T1-tYF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Tbl-Ev-4lP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zJd-RI-kR6">
+                                <rect key="frame" x="16" y="123" width="343" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ecm-Cs-ctI">
+                                <rect key="frame" x="16" y="213" width="343" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ReB-ew-Ckc">
+                                <rect key="frame" x="16" y="303" width="343" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oic-gj-r6g">
+                                <rect key="frame" x="16" y="393" width="343" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rcY-Lz-d0a">
+                                <rect key="frame" x="16" y="487" width="343" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YqQ-tX-mzd">
+                                <rect key="frame" x="46" y="406" width="61" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="cropped-logo-kpmi-2-1-1.png"/>
+                                <connections>
+                                    <segue destination="vkl-mR-aHj" kind="modal" id="PBY-Gm-W9t"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nIT-4T-HDW">
+                                <rect key="frame" x="35" y="498" width="61" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="muslim_manga_logo_by_airgroundforce.png"/>
+                                <connections>
+                                    <segue destination="MsO-Rk-Bwb" kind="modal" id="kcj-59-uNt"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wRa-21-4Gj">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem id="CfF-fY-e9v"/>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xCl-XU-3hu">
+                                <rect key="frame" x="146" y="149" width="71" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="eramuslim">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="cb9-gx-3i3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rns-Fi-ycW">
+                                <rect key="frame" x="146" y="419" width="121" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Pengusha Muslim">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vkl-mR-aHj" kind="modal" id="DNC-nD-up4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nC5-gT-JGf">
+                                <rect key="frame" x="137" y="513" width="100" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Muslim Manga">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="MsO-Rk-Bwb" kind="modal" id="PXU-Ee-gXE"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kGz-U0-2M9">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Web View App" id="sxN-aO-8mV">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" id="Fuf-8s-ohA">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Z8N-Pb-sNl">
+                                                <rect key="frame" x="16" y="-11" width="61" height="66"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Untitled-1.png"/>
+                                                <connections>
+                                                    <segue destination="0BZ-lC-WA2" kind="modal" id="uCi-iR-cei"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZXa-eH-fcd">
+                                <rect key="frame" x="146" y="329" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Muslim.or.id">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YY5-Ss-Fam" kind="modal" id="4SV-DK-JIG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vEe-yF-0Tf">
+                                <rect key="frame" x="46" y="314" width="61" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="muslim.or.id.png"/>
+                                <connections>
+                                    <segue destination="YY5-Ss-Fam" kind="modal" id="gNp-GE-jMv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d8o-5j-qCf">
+                                <rect key="frame" x="35" y="224" width="83" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="logo.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Llw-jY-ygI">
+                                <rect key="frame" x="146" y="239" width="85" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Hidayatullah">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="h3M-S7-yyF" kind="modal" id="lyZ-Br-YhB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wlg-QJ-aMm">
+                                <rect key="frame" x="35" y="137" width="83" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="logo-2.png"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="6Od-wt-ZaA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3zg-V9-RUR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1391.2" y="-262.21889055472263"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Untitled-1.png" width="1372" height="1893"/>
+        <image name="User.png" width="24" height="24"/>
+        <image name="cropped-logo-kpmi-2-1-1.png" width="339" height="135"/>
+        <image name="gmail.png" width="512" height="512"/>
+        <image name="logo-2.png" width="306" height="60"/>
+        <image name="logo.png" width="714" height="125"/>
+        <image name="muslim.or.id.png" width="940" height="1082"/>
+        <image name="muslim_manga_logo_by_airgroundforce.png" width="800" height="800"/>
+        <image name="web.png" width="15" height="15"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="yDu-N0-zqz"/>
+        <segue reference="cb9-gx-3i3"/>
+        <segue reference="gNp-GE-jMv"/>
+        <segue reference="PBY-Gm-W9t"/>
+        <segue reference="kcj-59-uNt"/>
+    </inferredMetricsTieBreakers>
+</document>
